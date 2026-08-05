@@ -51,22 +51,6 @@ const CustomerReviews = () => {
         >
           {/* Akıp giden ana sıvı kanalı */}
           <div className="absolute inset-0 bg-accent coffee-stream z-0" />
-
-          {/* 👑 EN ÜSTTEKİ DALGALI BEYAZ KÖPÜK KATMANI */}
-          <div
-            className="absolute top-0 left-0 right-0 h-16 md:h-20 bg-white z-10 pointer-events-none drop-shadow-sm"
-            style={{
-              maskImage:
-                'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 120 28\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 0 L 120 0 L 120 12 C 105 24, 90 4, 75 16 C 60 28, 45 6, 30 18 C 15 28, 0 8, 0 16 Z\' fill=\'black\'/%3E%3C/svg%3E")',
-              WebkitMaskImage:
-                'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 120 28\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 0 L 120 0 L 120 12 C 105 24, 90 4, 75 16 C 60 28, 45 6, 30 18 C 15 28, 0 8, 0 16 Z\' fill=\'black\'/%3E%3C/svg%3E")',
-              maskSize: "200% 100%",
-              WebkitMaskSize: "200% 100%",
-              maskRepeat: "repeat-x",
-              WebkitMaskRepeat: "repeat-x",
-              animation: "wave-ripple 4s linear infinite",
-            }}
-          />
         </div>
 
         <div className="relative z-10 flex flex-col items-center text-center mb-24 px-6">
