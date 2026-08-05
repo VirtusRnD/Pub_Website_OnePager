@@ -5,6 +5,10 @@
     "reviews": "Yorumlar",
     "menu": "Menü"
   },
+  "seo": {
+    "title": "Lumière | Anı Yaşa",
+    "description": "Lumière'de taze fıçı biralar, imza kokteyller ve yerel malzemelerle hazırlanan nefis pub lezzetlerini keşfedin."
+  },
   "hero": {
     "titleMain": "ANI",
     "titleItalic": "YAŞA",

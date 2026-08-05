@@ -95,7 +95,7 @@ const Hero = () => {
           >
             <a
               href="#menu"
-              className="inline-block bg-surface hover:bg-cafe-caramel text-text hover:text-cafe-espresso px-8 py-4 font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-300 shadow-md"
+              className="inline-block bg-surface hover:bg-accent text-text hover:text-surface px-8 py-4 font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-300 shadow-md"
             >
               {hero?.ctaText}
             </a>

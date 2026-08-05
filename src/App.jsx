@@ -5,10 +5,12 @@ import SignatureMenu from "./components/SignatureMenu";
 import CustomerReviews from "./components/CustomerReviews";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer"; // 👑 YENİ
+import SEO from "./components/SEO"; // 👑 YENİ
 
 function App() {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <SEO />
       <Navbar />
       <Hero />
       <div id="our-story">

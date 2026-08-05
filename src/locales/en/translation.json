@@ -5,6 +5,10 @@
     "reviews": "Reviews",
     "menu": "Menu"
   },
+  "seo": {
+    "title": "Lumière | Savor the Moment",
+    "description": "Discover ice-cold draft beers, signature cocktails, and seasonal pub bites prepared with locally sourced ingredients at Lumière."
+  },
   "hero": {
     "titleMain": "SAVOR",
     "titleItalic": "the MOMENT",
