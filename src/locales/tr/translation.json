@@ -1,0 +1,191 @@
+{
+  "common": {
+    "home": "Ana Sayfa",
+    "ourStory": "Hikayemiz",
+    "reviews": "Yorumlar",
+    "menu": "Menü"
+  },
+  "hero": {
+    "titleMain": "ANI",
+    "titleItalic": "YAŞA",
+    "description": "Yerel malzemelerden ilham alan, özenle hazırlanan ve güzelce sunulan mevsimlik bir menü.",
+    "ctaText": "MENÜYÜ KEŞFET"
+  },
+  "ourStory": {
+    "subtitle": "HİKAYEMİZ",
+    "titleOutline": "BİRAYA",
+    "titleFilled": "yeni bir bakış",
+    "paragraphs": [
+      "Lumière'de bir lezzetin bir tariften çok daha fazlasını anlatabileceğine inanıyoruz.",
+      "Her şey nesilden nesile aktarılan geleneksel bir yaklaşımla başlar. Taze baharat ve ot kokularının anıların bir parçası olduğu mutfaklardan ilham alan, özenle hazırlanmış bir sunum.",
+      "Orijinal tarif, LUMIÈRE'in kalbidir."
+    ]
+  },
+  "signatureMenu": {
+    "titleMain": "İmza",
+    "titleItalic": "Lezzetler",
+    "slides": [
+      "Gelenekleri modern dokunuşlarla yeniden yorumluyoruz. Klasikleri yaratıcılıkla harmanlayarak hazırladığımız imza içeceklerimizi keşfedin.",
+      "Yerel üreticilerden aldığımız taze meyvelerle hazırlanan, doğal ferahlığın ve buz gibi kokteyllerin tadına varın.",
+      "Özel şerbetçiotları ve maltların, ustalarımızın elinde taze fıçı lezzetlerine nasıl dönüştüğüne şahit olun.",
+      "Özel tasarım bardaklarda servis edilen, gövdeli ve zengin aromalı imza craft biralarımız sizi bekliyor."
+    ]
+  },
+  "reviews": {
+    "overline": "KULAKTAN KULAĞA",
+    "title": "Müşterilerimizden Dinleyin",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Ayşe Yılmaz",
+        "image": "images/avatar-1.webp",
+        "rating": 4,
+        "note": "İçtiğim en iyi biraydı. Barboy çok güler yüzlü."
+      },
+      {
+        "id": 2,
+        "name": "Mehmet Demir",
+        "image": "images/avatar-2.webp",
+        "rating": 4,
+        "note": "Bira gerçekten 'premium' hissettiriyor. İç mekan tasarımı çok samimi ama biraz kalabalıktı."
+      },
+      {
+        "id": 3,
+        "name": "Zeynep Kaya",
+        "image": "images/avatar-3.webp",
+        "rating": 5,
+        "note": "Biralar taze çekilmiş, soğuk ve ferahlatıcıydı. Lumière akşam ritüelimin vazgeçilmezi oldu."
+      },
+      {
+        "id": 4,
+        "name": "Can Özkan",
+        "image": "images/avatar-4.webp",
+        "rating": 3,
+        "note": "Bira şişesi çok şık, tadı da güzeldi ama fiyatlar biraz daha uygun olabilirdi."
+      }
+    ]
+  },
+  "menu": {
+    "overline": "MENÜ",
+    "dynamicTitles": {
+      "beers": {
+        "italic": "Enfes",
+        "bold": "İÇKİLER"
+      },
+      "pubKitchen": {
+        "italic": "Gözde",
+        "bold": "ÜRÜNLERİMİZ"
+      },
+      "cocktails": {
+        "italic": "Harika",
+        "bold": "KOKTEYLLER"
+      }
+    },
+    "description": "Buz gibi musluklardan taze çekilen craft biralar. Özenle hazırlanan imza kokteyller ve yanında harika gidecek sıcak pub atıştırmalıkları.",
+    "tabs": [
+      { "id": "beers", "label": "BİRALAR" },
+      { "id": "pubKitchen", "label": "ATIŞTIRMALIKLAR" },
+      { "id": "cocktails", "label": "KOKTEYLLER" }
+    ],
+    "items": {
+      "beers": [
+        {
+          "groupName": "FIÇI BİRALAR",
+          "products": [
+            {
+              "id": 1,
+              "name": "KLASİK LAGER",
+              "description": "Hafif gövdeli, ferahlatıcı ve altın sarısı klasik bira. Pub kültürünün vazgeçilmezi, buz gibi servis edilir.",
+              "image": "images/menu/lager.webp"
+            },
+            {
+              "id": 2,
+              "name": "İMZA CRAFT IPA",
+              "description": "Yoğun şerbetçiotu aromalı, meyvemsi notalara sahip cesur bir craft bira. Karakterli bir deneyim arayanlara.",
+              "image": "images/menu/craftipa.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "ŞİŞE & KUTU",
+          "products": [
+            {
+              "id": 3,
+              "name": "BUĞDAY BİRASI",
+              "description": "Muz ve karanfil notalarıyla bulanık, gövdeli Alman usulü şişe bira. Pürüzsüz bir içim.",
+              "image": "images/menu/wheatbeer.webp"
+            }
+          ]
+        }
+      ],
+      "pubKitchen": [
+        {
+          "groupName": "ATIŞTIRMALIKLAR & BAŞLANGIÇLAR",
+          "products": [
+            {
+              "id": 4,
+              "name": "TIKABASA ATIŞTIRMALIK TABAĞI",
+              "description": "Çıtır soğan halkaları, sosis dilimleri, mozzarella çubukları ve patates kızartması. Paylaşmak isteyen gruplar için mükemmel.",
+              "image": "images/menu/snackplate.webp"
+            },
+            {
+              "id": 5,
+              "name": "SOSİS TABAĞI",
+              "description": "Özel baharatlı pub sosisleri, Alman hardalı ve taze pişmiş ekmek dilimleri ile servis edilir.",
+              "image": "images/menu/sausageplate.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "ANA YEMEKLER",
+          "products": [
+            {
+              "id": 6,
+              "name": "PUB BURGER",
+              "description": "180gr el yapımı dana köfte, karamelize soğan, cheddar peyniri ve özel pub sosu. Yanında çıtır patates ile.",
+              "image": "images/menu/pubburger.webp"
+            },
+            {
+              "id": 7,
+              "name": "FISH & CHIPS",
+              "description": "Bira sosuna batırılarak kızartılmış taze mezgit balığı, çıtır patates kızartması ve tartar sos.",
+              "image": "images/menu/fishchips.webp"
+            }
+          ]
+        }
+      ],
+      "cocktails": [
+        {
+          "groupName": "KLASİK KOKTEYLLER",
+          "products": [
+            {
+              "id": 8,
+              "name": "NEGRONI",
+              "description": "Cin, Campari ve tatlı vermutun dengeli karışımı. Portakal kabuğu ile süslenmiş klasik bir aperitif.",
+              "image": "images/menu/negroni.webp"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "overline": "BİZE KATILIN",
+    "titleOutline": "İSTANBUL'UN",
+    "titleFilled": "Her Yerindeyiz",
+    "addressTitle": "Mecidiyeköy Mah.",
+    "addressSubtitle": "İstanbul, Türkiye",
+    "openInMaps": "HARİTADA AÇ",
+    "hoursTitle": "SAATLER",
+    "phoneTitle": "TELEFON",
+    "emailTitle": "E-POSTA",
+    "ordersTitle": "SİPARİŞLER",
+    "followTitle": "BİZİ TAKİP EDİN",
+    "days": {
+      "weekdays": "Pzt - Cuma",
+      "wednesday": "Çarşamba",
+      "weekend": "Cmt & Pazar",
+      "closed": "Kapalı"
+    }
+  }
+}

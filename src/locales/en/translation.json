@@ -1,0 +1,191 @@
+{
+  "common": {
+    "home": "Home",
+    "ourStory": "Our Story",
+    "reviews": "Reviews",
+    "menu": "Menu"
+  },
+  "hero": {
+    "titleMain": "SAVOR",
+    "titleItalic": "the MOMENT",
+    "description": "A seasonal menu inspired by locally sourced ingredients, thoughtfully prepared and beautifully served.",
+    "ctaText": "EXPLORE OUR MENU"
+  },
+  "ourStory": {
+    "subtitle": "OUR STORY",
+    "titleOutline": "A NEW",
+    "titleFilled": "perspective",
+    "paragraphs": [
+      "At Lumière we believe a drink and meal can tell much more than a recipe.",
+      "It all starts with a traditional approach handed down from generation to generation. A simple, delicate, and carefully crafted preparation inspired by authentic pub culture.",
+      "That original recipe is the heart of LUMIÈRE."
+    ]
+  },
+  "signatureMenu": {
+    "titleMain": "Signature",
+    "titleItalic": "Flavors",
+    "slides": [
+      "We reinterpret traditions with modern touches. Discover our signature drinks prepared by blending classics with creativity.",
+      "Enjoy the natural freshness of ice-cold cocktails and drinks made with fresh fruits sourced from local producers.",
+      "Witness how specialty hops and malts turn into fresh draft perfection in the hands of our master brewers.",
+      "Our signature craft beers with intense aromas and rich flavor profiles, served in custom glassware, await you."
+    ]
+  },
+  "reviews": {
+    "overline": "WORD OF MOUTH",
+    "title": "Hear From Our Customers",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Ayşe Yılmaz",
+        "image": "images/avatar-1.webp",
+        "rating": 4,
+        "note": "It was the best beer I've ever had. The bartender was super friendly and welcoming."
+      },
+      {
+        "id": 2,
+        "name": "Mehmet Demir",
+        "image": "images/avatar-2.webp",
+        "rating": 4,
+        "note": "The beer feels truly 'premium'. The interior design is very cozy, though it gets a bit crowded."
+      },
+      {
+        "id": 3,
+        "name": "Zeynep Kaya",
+        "image": "images/avatar-3.webp",
+        "rating": 5,
+        "note": "The draft beers were freshly poured, ice-cold, and crisp. Lumière became an essential spot for my evening ritual."
+      },
+      {
+        "id": 4,
+        "name": "Can Özkan",
+        "image": "images/avatar-4.webp",
+        "rating": 3,
+        "note": "The craft beer bottle design is very stylish and tasted great, but prices could be a bit more affordable."
+      }
+    ]
+  },
+  "menu": {
+    "overline": "MENU",
+    "dynamicTitles": {
+      "beers": {
+        "italic": "House",
+        "bold": "DRINKS"
+      },
+      "pubKitchen": {
+        "italic": "Favorite",
+        "bold": "SELECTIONS"
+      },
+      "cocktails": {
+        "italic": "Amazing",
+        "bold": "COCKTAILS"
+      }
+    },
+    "description": "Ice-cold craft beers fresh from the tap. Handcrafted signature cocktails paired with delicious hot pub bites.",
+    "tabs": [
+      { "id": "beers", "label": "BEERS" },
+      { "id": "pubKitchen", "label": "SNACKS" },
+      { "id": "cocktails", "label": "COCKTAILS" }
+    ],
+    "items": {
+      "beers": [
+        {
+          "groupName": "DRAFT BEERS",
+          "products": [
+            {
+              "id": 1,
+              "name": "CLASSIC LAGER",
+              "description": "A light-bodied, refreshing, golden classic beer. A pub essential, served ice-cold.",
+              "image": "images/menu/lager.webp"
+            },
+            {
+              "id": 2,
+              "name": "SIGNATURE CRAFT IPA",
+              "description": "A bold craft beer with rich hop aromas and fruity notes. Perfect for those seeking a characterful flavor.",
+              "image": "images/menu/craftipa.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "BOTTLES & CANS",
+          "products": [
+            {
+              "id": 3,
+              "name": "WHEAT BEER",
+              "description": "A hazy, full-bodied German-style bottled beer with notes of banana and clove. Smooth on the palate.",
+              "image": "images/menu/wheatbeer.webp"
+            }
+          ]
+        }
+      ],
+      "pubKitchen": [
+        {
+          "groupName": "SNACKS & STARTERS",
+          "products": [
+            {
+              "id": 4,
+              "name": "LOADED SNACK PLATTER",
+              "description": "Crispy onion rings, sausage bites, mozzarella sticks, and French fries. Perfect for sharing with groups.",
+              "image": "images/menu/snackplate.webp"
+            },
+            {
+              "id": 5,
+              "name": "SAUSAGE PLATTER",
+              "description": "Served with specialty spiced pub sausages, German mustard, and freshly baked bread slices.",
+              "image": "images/menu/sausageplate.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "MAINS",
+          "products": [
+            {
+              "id": 6,
+              "name": "PUB BURGER",
+              "description": "180g handmade beef patty, caramelized onions, cheddar cheese, and signature pub sauce. Served with crispy fries.",
+              "image": "images/menu/pubburger.webp"
+            },
+            {
+              "id": 7,
+              "name": "FISH & CHIPS",
+              "description": "Fresh cod fried in beer batter, served with crispy French fries and tartar sauce.",
+              "image": "images/menu/fishchips.webp"
+            }
+          ]
+        }
+      ],
+      "cocktails": [
+        {
+          "groupName": "CLASSIC COCKTAILS",
+          "products": [
+            {
+              "id": 8,
+              "name": "NEGRONI",
+              "description": "A balanced mix of gin, Campari, and sweet vermouth. A classic aperitif garnished with an orange peel.",
+              "image": "images/menu/negroni.webp"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "overline": "JOIN US",
+    "titleOutline": "FIND US IN",
+    "titleFilled": "Eskisehir.",
+    "addressTitle": "Mecidiyeköy Mah.",
+    "addressSubtitle": "İstanbul, Turkey",
+    "openInMaps": "OPEN IN MAPS",
+    "hoursTitle": "HOURS",
+    "phoneTitle": "PHONE",
+    "emailTitle": "EMAIL",
+    "ordersTitle": "ORDERS",
+    "followTitle": "FOLLOW US",
+    "days": {
+      "weekdays": "Mon - Fri",
+      "wednesday": "Wednesday",
+      "weekend": "Sat & Sun",
+      "closed": "Closed"
+    }
+  }
+}
